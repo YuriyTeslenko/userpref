@@ -11,7 +11,7 @@ module.exports = {
         req.models.userpref.create(req.body, function (err, userpref) { 
             if (err)
                 res.send(422, err);
-            res.send(200, userpref.user_id); 
+            res.send(201, userpref.user_id); 
         }); 
     },
     update: function(req, res) {
