@@ -1,0 +1,13 @@
+{
+    "name": "userPrefApi",
+    "description": "CRUD users preferences RESTfully using mySQL DB",
+    "version": "0.1.0",
+    "repository"  : "http://github.com/YuriyTeslenko/userpref.git",
+    "main": "server.js",
+    "dependencies": {
+        "express": "~4.0.0",
+        "mysql": "~2.10.2",
+        "orm": "",
+        "body-parser": "~1.0.1"
+    }
+}
